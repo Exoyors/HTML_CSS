@@ -1,0 +1,1284 @@
+html {
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(/imagenes/bg-tablet-pattern.svg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position-x: 55vw;
+    background-position-y: -8vw;
+    width: 100vw;
+    margin: 0%;
+}
+
+.cabecera {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    align-items: center;
+    width: 80vw;
+}
+
+.cabecera img {
+    object-fit: contain;
+}
+
+.lista-header ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 40vw;
+}
+
+.lista-header li, .lista-header a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.lista-header a:hover {
+    cursor: pointer;
+    color: rgb(143, 148, 167);
+    transition: 0.5s;
+}
+
+.menuExtendido {
+    display: none;
+}
+
+.get-started {
+    background-color: rgb(242, 95, 58);
+    color: white;
+    padding: 0 30px;
+    border-radius: 50px;
+    border: 0px;
+    box-shadow: 0px 3px 5px rgb(187, 187, 187);
+}
+
+.get-started:hover {
+    cursor: pointer;
+    background-color: rgba(242, 95, 58, 0.541);
+    transition: 0.5s;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 80vw;
+}
+
+.sector-uno {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    align-items: center;
+    width: 80vw;
+}
+
+.sector-uno img {
+    width: 50vw;
+    
+}
+
+.sector-uno article {
+    width: 50vw;
+}
+
+.texto-uno {
+    display: flex;
+    flex-direction: column;
+    padding-right: 80px;
+    margin-bottom: 20px;
+}
+
+.texto-uno h1 {
+    display: flex;
+    font-weight: 700;
+    font-size: 58px;
+    color: rgb(35, 44, 81);
+    letter-spacing: -4px;
+    margin-bottom: 0px;
+}
+
+.texto-uno #parrafo-uno {
+    display: flex;
+    font-weight: 500;
+    width: 70%;
+    padding-bottom: 10px;
+    color: rgb(143, 148, 167);
+}
+
+.sector-dos {
+    display: flex;
+    padding-top: 90px;
+    width: 80vw;
+}
+
+.texto-dos {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 40vw;
+}
+
+.texto-dos h2 {
+    display: flex;
+    font-weight: 700;
+    font-size: 36px;
+    color: rgb(35, 44, 81);
+    letter-spacing: -1px;
+    margin-bottom: 0px;
+}
+
+.texto-dos p {
+    display: flex;
+    font-weight: 500;
+    width: 75%;
+    padding-bottom: 10px;
+    color: rgb(143, 148, 167);
+}
+
+
+.articulos {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    padding-left: 10vw;
+
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards p {
+    display: flex;
+    background-color: rgb(242, 95, 58);
+    color: white;
+    padding: 10px 25px;
+    border-radius: 50px;
+    border: 0px;
+    box-shadow: 0px 3px 5px rgb(187, 187, 187);
+}
+
+.cards h3 {
+    display: flex;
+    font-weight: 700;
+    font-size: 16px;
+    align-items: center;
+    padding-left: 2vw;
+    letter-spacing: -1px;
+}
+
+.cards h4 {
+    display: flex;
+    font-weight: 400;
+    align-items: center;
+    padding-left: 7vw;
+    letter-spacing: 0px;
+    margin-block-start: 0%;
+    width: 80%;
+    color: rgb(143, 148, 167);
+}
+
+.sector-tres {
+    display: flex;
+    padding-top: 80px;
+    width: 80vw;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.sector-tres h2 {
+    display: flex;
+    font-weight: 700;
+    font-size: 40px;
+    color: rgb(35, 44, 81);
+    letter-spacing: -1px;
+    margin-bottom: 100px;
+}
+
+.sector-tres h4 {
+    margin-top: 50px;
+}
+
+.sector-tres div {
+    display: flex;
+}
+
+.feedbacks {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 28vw;
+    background-color: rgb(249, 249, 249);
+    margin: 0 10px 50px 10px;
+}
+
+.feedbacks img {
+    position: absolute;
+    z-index: 1;
+    top: -40px;
+    width: 70px;
+    height: 70px;
+}
+
+.feedbacks p {
+    display: flex;
+    font-weight: 400;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-block-start: 0%;
+    width: 90%;
+    color: rgb(143, 148, 167);
+}
+
+.menu {
+    display: none;
+}
+
+.shanai {
+    display: none;
+}
+
+.anisha:hover {
+    background-color: rgba(242, 95, 58, 0.4);
+    border-radius: 45%;
+    transition: 2s;
+    transform: scale(1.1, 1.1);
+    z-index: 1;
+}
+
+.ali:hover {
+    background-color: rgba(242, 95, 58, 0.4);
+    border-radius: 45%;
+    transition: 2s;
+    transform: scale(1.1, 1.1);
+    z-index: 1;
+}
+
+.richard:hover {
+    background-color: rgba(242, 95, 58, 0.4);
+    border-radius: 45%;
+    transition: 2s;
+    transform: scale(1.1, 1.1);
+    z-index: 1;
+}
+
+.sector-cuatro {
+    background-color: rgb(242, 95, 58);
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-image: url(/imagenes/bg-simplify-section-desktop.svg);
+    background-repeat: no-repeat;
+    background-position-x: 20vw;
+    background-position-y: -7vw;
+}
+
+.sector-cuatro div {
+    display: flex;
+    margin-left: 12vw;
+}
+
+.sector-cuatro h2 {
+    display: flex;
+    font-weight: 500;
+    font-size: 40px;
+    letter-spacing: -1px;
+    width: 70%;
+    color: white;
+}
+
+.sector-cuatro form {
+    width: 30vw;
+}
+
+.sector-cuatro .blanco {
+    background-color: white;
+    color: rgb(242, 95, 58);
+    display: flex;
+    margin-right: 12vw;
+    box-shadow: 0px 3px 5px rgb(53, 53, 53);
+}
+
+.sector-cuatro .blanco:hover {
+    cursor: pointer;
+    background-color: rgba(249, 249, 249, 0.7);
+    transition: 0.5s;
+}
+
+.pie-de-pagina {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(29, 30, 37);
+    width: 100vw;
+}
+
+.todoLinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.cuadros {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 18vw;
+}
+
+.linksFooter {
+    width: 30vw;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cuadros li, .cuadros a {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    font-weight: lighter;
+    color: rgb(143, 148, 167);
+}
+
+.linksFooter ul {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    padding-inline-start: 20px;
+    height: 150px;
+}
+
+#logoFooter {
+    padding-left: 20%;
+    width: 70%;
+}
+
+#iconos li {
+    width: 30px;
+    height: 30px;
+}
+
+#iconos ul {
+    display: flex;
+    justify-content: space-evenly;
+} 
+
+#iconos i {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+    color:white;
+}
+
+#iconos i:hover {
+    cursor: pointer;
+    color: rgb(242, 95, 58);
+    transition: 0.5s;
+}
+
+#iconos {
+    padding-top: 40px;
+}
+
+.linksFooter li  {
+    display: flex;
+    align-content: space-between;
+    padding-bottom: 15px;
+}
+
+.linksFooter a:hover {
+    cursor: pointer;
+    color: rgb(242, 95, 58);
+    transition: 0.7s;
+}
+
+.ultimoItem {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 5vw;
+    margin-top: 0%;
+}
+
+#copyright {
+    color: rgb(143, 148, 167);
+    font-size: 12px;
+    font-weight: lighter;
+    margin-block-start: 0%;
+    margin-block-end: 20px;
+}
+
+.cuadros form {
+    display: flex;
+}
+
+#update {
+    border-radius: 50px;
+    padding: 15px 20px;
+    margin-right: 10px;
+}
+
+.go {
+    background-color: rgb(242, 95, 58);
+    color: white;
+    padding: 0px 20px;
+    font-weight: 700;
+    border-radius: 50px;
+    border: 0px;
+}
+
+#update:focus-visible {
+    outline: none;
+}
+
+.go:hover {
+    cursor: pointer;
+    background-color: rgba(242, 95, 58, 0.7);
+    transition: 0.5s;
+}
+
+.cuadros div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 150px;
+}
+/* Laptops de resolucion 1024 a 769 */
+@media (max-width: 1024px) and (min-width: 769px) {
+    html {
+        width: 1024px;
+    }
+
+    .lista-header ul {
+        width: 38vw;
+    }
+
+    #update {
+        padding: 15px 0px;
+    }
+
+    .linksFooter    {
+        width: 21vw;
+    }
+
+    .linksFooter ul {
+        padding-inline-start: 0px;
+    }
+
+    .texto-uno {
+        width: 60vw;
+        padding-right: 20px;
+    }
+
+    .cuadros li,a {
+        font-size: 12px;
+    }
+
+    .cuadros div {
+        width: 25vw;
+    }
+
+    .sector-cuatro form {
+        width: 45vw;
+    }
+
+    .sector-uno img {
+        width: 40vw;
+    }
+
+    #iconos i {
+        font-size: 25px;
+    }
+
+    #iconos li {
+        width: 20px;
+        height: 20px;
+    }
+    
+    #iconos ul {
+        padding-inline-start: 20px;
+    }
+}
+/* Tablets de resolucion 768 a 577 */
+@media (max-width: 768px) and (min-width: 577px) {
+    html {
+        width: 768px;
+    }
+
+    #update {
+        padding: 15px 0px;
+    }
+
+    .sector-cuatro form {
+        width: 40vw;
+    }
+
+    .sector-cuatro h2 {
+        width: 40vw;
+    }
+
+    .linksFooter ul {
+        padding-inline-start: 0px;
+    }
+
+    .texto-uno {
+        width: 60vw;
+        padding-right: 20px;
+    }
+
+    .texto-dos {
+        width: 30vw;
+    }
+
+    .sector-uno img {
+        width: 40vw;
+    }
+
+    .articulos {
+        padding-left: 0vw;
+        width: 60vw;
+    }
+
+    .lista-header a {
+        display: none;
+    }
+
+    .cuadros form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cuadros a {
+        font-size: 12px;
+    }
+
+    .go {
+        max-width: 60px;
+        max-height: 40px;
+        margin-top: 10px;
+    }
+
+    .cuadros div {
+        justify-content: flex-start;
+        align-items: center;
+        height: 160px;
+    }
+
+    #iconos i {
+        font-size: 16px;
+    }
+
+    #iconos li {
+        width: 15px;
+        height: 15px;
+    }
+
+    #iconos ul {
+        padding-inline-start: 20px;
+    }
+
+    .botonHeader {
+        display: none;
+    }
+
+    .menuExtendido
+    {
+        display: flex;
+    }
+
+    .menuExtendido ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-block-start: 0px;
+        margin-block-end: 0px;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 0px;
+    }
+
+    .menuExtendido li {
+        list-style: none;
+        background-color: rgb(35, 44, 81);
+        width: 35px;
+        height: 5px;
+        margin: 1.5px;
+    }
+
+    .sector-cuatro {
+        background-position-x: -25vw;
+        background-position-y: -7vw;
+    }
+}
+/* Celulares de resolucion 576 a 376 */
+@media (max-width: 576px) and (min-width: 376px) {
+    
+    html {
+        width: 576px;
+    }
+
+    body {
+        width: 90vw;
+        margin: 0px;
+        background-size: 120%;
+        background-position-x: 15vw;
+        background-position-y:-25vw;
+    }
+
+    #update {
+        padding: 15px 0px;
+    }
+
+    .linksFooter ul {
+        padding-inline-start: 0px;
+        margin-block-end: 0px;
+    }
+
+    .sector-uno img {
+        width: 90vw;
+    }
+
+    .sector-uno {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .sector-uno article {
+        width: auto;
+    }
+
+    .texto-uno {
+        padding-right: 0px;
+        align-items: center;
+    }
+
+    .texto-uno h1 {
+        margin-block-start: 10px;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .texto-uno #parrafo-uno {
+        text-align: center;
+        font-weight: lighter;
+        font-size: 15px;
+        color: rgb(143, 148, 167);
+        width: 95%;
+    }
+
+    .lista-header   {
+        display: none;
+    }
+
+    .lista-header a {
+        display: none;
+    }
+
+    .sector-dos {
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .texto-dos {
+        padding-right: 0px;
+        align-items: center;
+        width: 80%;
+    }
+
+    .texto-dos h2 {
+        margin-block-start: 0px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .texto-dos p {
+        text-align: center;
+        font-weight: lighter;
+        font-size: 15px;
+        color: rgb(143, 148, 167);
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    .articulos {
+        width: 100%;
+    }
+
+    .cards h4 {
+        width: 92%;
+        padding-left: 0px;
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .sector-tres {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+
+    .sector-tres h2 {
+        margin-block-start: 0px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .sector-tres div {
+        flex-direction: column;
+    }
+
+    .feedbacks {
+        width: 100%;
+    }
+
+    .richard {
+        display: none;
+    }
+
+    .anisha {
+        display: none;
+    }
+
+    .shanai {
+        display: none;
+    }
+
+    .menu{
+        display: flex;
+        align-items: center;
+        width: 15vw;
+        justify-content: space-evenly;
+    }
+
+    ul.menu {
+        padding-inline-start: 0px;
+    }
+    
+    .menu li{
+        display: flex;
+    }
+    
+    .menu li a{
+        display: flex;
+        text-decoration: none;
+        border: 2px solid rgb(242, 95, 58);
+        width: 5px;
+        height: 5px;
+        border-radius: 100%;
+    }
+
+    #slide2 {
+        background-color: rgb(242, 95, 58);
+        border-radius: 100%;
+    }
+/*  Aca estaba tratando de hacer el menu Slider, pero
+    nose como achicar la pantalla en la notebook y que
+    el Google Chrome lo tome, para poder probarlo.
+
+    article.slider{
+        position: relative;
+        width: 800px;
+        height: 300px;
+    }
+    
+    article.slider article {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        opacity: 0;
+        width: inherit;
+        height: inherit;
+        transition: opacity .5s;
+        background:#fff;
+    }
+    
+    article.slider article img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+    
+    article.slider article:first-child {
+        opacity: 1;
+    }
+    
+    article.slider article:target {
+        opacity: 1;
+    } */
+
+    .sector-cuatro {
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+        background-position-x: -120vw;
+        background-position-y: -20vw;
+    }
+
+    .sector-cuatro div {
+        width: 90%;
+        margin-left: 0px;
+    }
+
+    .sector-cuatro h2 {
+        width: 95%;
+        text-align: center;
+    }
+
+    .sector-cuatro .blanco
+    {
+        margin-right: 0px;
+    }
+
+    .todoLinks {
+        flex-direction: column-reverse;
+        height: auto;
+        align-items: center;
+    }
+
+    .cuadros {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100vw;
+        justify-content: center;
+    }
+
+    
+    .linksFooter {
+        justify-content: space-between;
+        width: 70%;
+    }
+
+
+    .cuadros div {
+        margin: 10px;
+        justify-items: center;
+        height: auto;
+        margin: 30px;
+    }
+
+    .go {
+        padding: 0px 30px;
+    }
+
+    #update {
+        border-radius: 50px;
+        padding: 15px 20px;
+        margin-right: 10px;
+    }
+
+    .iconosFooter {
+        flex-direction: column-reverse;
+        height: 150px;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 30px;
+    }
+
+    #logoFooter {
+        padding-left: 0%;
+        width: 40%;
+    }
+
+    #iconos {
+        padding-top: 0%;
+        width: 100vw;
+    }
+
+    #iconos i {
+        font-size: 40px;
+    }
+
+    #iconos li {
+        width: 40px;
+        height: 40px;
+    }
+
+    #iconos ul {
+        padding-inline-start: 0px;
+    }
+
+    .botonHeader {
+        display: none;
+    }
+
+    .menuExtendido
+    {
+        display: flex;
+    }
+
+    .menuExtendido ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-block-start: 0px;
+        margin-block-end: 0px;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 35vw;
+    }
+
+    .menuExtendido li {
+        list-style: none;
+        background-color: rgb(35, 44, 81);
+        width: 30px;
+        height: 4px;
+        margin: 1.5px;
+    }
+
+    .pie-de-pagina {
+        align-items: center;
+    }
+
+    .ultimoItem {
+        margin-right: 0%;
+    }
+}
+/* Celulares de resolucion hasta 375 */
+@media (max-width: 375px) {
+    
+    html {
+        width: 375px;
+    }
+
+    body {
+        width: 90vw;
+        margin: 0px;
+        background-size: 120%;
+        background-position-x: 15vw;
+        background-position-y:-25vw;
+    }
+
+    #update {
+        padding: 15px 0px;
+    }
+
+    .linksFooter ul {
+        padding-inline-start: 0px;
+        margin-block-end: 0px;
+    }
+
+    .sector-uno img {
+        width: 90vw;
+    }
+
+    .sector-uno {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .sector-uno article {
+        width: auto;
+    }
+
+    .texto-uno {
+        padding-right: 0px;
+        align-items: center;
+    }
+
+    .texto-uno h1 {
+        margin-block-start: 10px;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .texto-uno #parrafo-uno {
+        text-align: center;
+        font-weight: lighter;
+        font-size: 15px;
+        color: rgb(143, 148, 167);
+        width: 95%;
+    }
+
+    .lista-header   {
+        display: none;
+    }
+
+    .lista-header a {
+        display: none;
+    }
+
+    .sector-dos {
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .texto-dos {
+        padding-right: 0px;
+        align-items: center;
+        width: 80%;
+    }
+
+    .texto-dos h2 {
+        margin-block-start: 0px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .texto-dos p {
+        text-align: center;
+        font-weight: lighter;
+        font-size: 15px;
+        color: rgb(143, 148, 167);
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    .articulos {
+        width: 100%;
+    }
+
+    .cards h4 {
+        width: 92%;
+        padding-left: 0px;
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .sector-tres {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+
+    .sector-tres h2 {
+        margin-block-start: 0px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .sector-tres div {
+        flex-direction: column;
+    }
+
+    .feedbacks {
+        width: 100%;
+    }
+
+    .richard {
+        display: none;
+    }
+
+    .anisha {
+        display: none;
+    }
+
+    .shanai {
+        display: none;
+    }
+
+    .menu{
+        display: flex;
+        align-items: center;
+        width: 15vw;
+        justify-content: space-evenly;
+    }
+
+    ul.menu {
+        padding-inline-start: 0px;
+    }
+    
+    .menu li{
+        display: flex;
+    }
+    
+    .menu li a{
+        display: flex;
+        text-decoration: none;
+        border: 2px solid rgb(242, 95, 58);
+        width: 5px;
+        height: 5px;
+        border-radius: 100%;
+    }
+
+    #slide2 {
+        background-color: rgb(242, 95, 58);
+        border-radius: 100%;
+    }
+/*  Aca estaba tratando de hacer el menu Slider, pero
+    nose como achicar la pantalla en la notebook y que
+    el Google Chrome lo tome, para poder probarlo.
+
+    article.slider{
+        position: relative;
+        width: 800px;
+        height: 300px;
+    }
+    
+    article.slider article {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        opacity: 0;
+        width: inherit;
+        height: inherit;
+        transition: opacity .5s;
+        background:#fff;
+    }
+    
+    article.slider article img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+    
+    article.slider article:first-child {
+        opacity: 1;
+    }
+    
+    article.slider article:target {
+        opacity: 1;
+    } */
+
+    .sector-cuatro {
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+        background-position-x: -120vw;
+        background-position-y: -20vw;
+    }
+
+    .sector-cuatro div {
+        width: 90%;
+        margin-left: 0px;
+    }
+
+    .sector-cuatro h2 {
+        width: 95%;
+        text-align: center;
+    }
+
+    .sector-cuatro .blanco
+    {
+        margin-right: 0px;
+    }
+
+    .todoLinks {
+        flex-direction: column-reverse;
+        height: auto;
+        align-items: center;
+    }
+
+    .cuadros {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100vw;
+        justify-content: center;
+    }
+
+    
+    .linksFooter {
+        justify-content: space-between;
+        width: 70%;
+    }
+
+
+    .cuadros div {
+        margin: 10px;
+        justify-items: center;
+        height: auto;
+        margin: 30px;
+    }
+
+    .go {
+        padding: 0px 30px;
+    }
+
+    #update {
+        border-radius: 50px;
+        padding: 15px 20px;
+        margin-right: 10px;
+    }
+
+    .iconosFooter {
+        flex-direction: column-reverse;
+        height: 150px;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 30px;
+    }
+
+    #logoFooter {
+        padding-left: 0%;
+        width: 40%;
+    }
+
+    #iconos {
+        padding-top: 0%;
+        width: 100vw;
+    }
+
+    #iconos i {
+        font-size: 40px;
+    }
+
+    #iconos li {
+        width: 40px;
+        height: 40px;
+    }
+
+    #iconos ul {
+        padding-inline-start: 0px;
+    }
+
+    .botonHeader {
+        display: none;
+    }
+
+    .menuExtendido
+    {
+        display: flex;
+    }
+
+    .menuExtendido ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-block-start: 0px;
+        margin-block-end: 0px;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 90%;
+    }
+
+    .menuExtendido li {
+        list-style: none;
+        background-color: rgb(35, 44, 81);
+        width: 30px;
+        height: 4px;
+        margin: 1.5px;
+    }
+
+    .pie-de-pagina {
+        align-items: center;
+    }
+
+    .ultimoItem {
+        margin-right: 0%;
+    }
+}

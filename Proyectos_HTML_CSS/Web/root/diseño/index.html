@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Final FE1</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://kit.fontawesome.com/41ddc0590b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- Aca esta el header -->
+    <header class="cabecera">
+        <img src="../imagenes/logo.svg" alt="Logo">
+        <!-- Una lista desordenada de los enlaces del header -->
+        <nav class="lista-header">
+            <ul>
+                <li><a href="Pricing">Pricing</a></li>
+                <li><a href="Product">Product</a></li>
+                <li><a href="About Us">About Us</a></li>
+                <li><a href="Careers">Careers</a></li>
+                <li><a href="Community">Community</a></li>
+            </ul>
+        </nav>
+        <!-- El menu preferi hacerlo con flexbox simplemente para probar como queda, se que es mas sencillo con un icono o una imagen -->
+        <div class="menuExtendido">
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <!-- Un boton -->
+        <form action="../diseño/" method="post">
+            <button class="get-started botonHeader" type="submit">
+                <p>Get started</p>
+            </button>
+        </form>
+    </header>
+<!-- Aca empieza el main -->
+    <main>
+        <!-- Separando las partes en Section con distintas clases para hacer mas sencillo todo -->
+        <section class="sector-uno">
+            <article class="texto-uno">
+                <h1>
+                    Bring everyone
+                    together to build
+                    better products.
+                </h1>
+                <!-- Aca tuve que agregarle un ID al parrafo porque sino me cambiaba el P adentro del button -->
+                <p id="parrafo-uno">
+                    Manage makes it simple for software teams
+                    to plan day-to-day tasks while keeping the 
+                    large team goals in view 
+                </p>
+                <form action="../diseño/" method="post">
+                    <button class="get-started" type="submit">
+                        <p>Get started</p>
+                    </button>
+                </form>
+            </article>
+            <img src="../imagenes/illustration-intro.svg" alt="imagenPorcentajes">
+        </section>
+        <!-- Aca empieza el 2do section o sector dos -->
+        <section class="sector-dos">
+            <!-- No queria volver a usar un section asi que opte por usar div -->
+            <div class="texto-dos">
+                <h2>
+                    What´s different about
+                    Manage? 
+                </h2>
+                <!-- Aca no hizo falta ponerle ID al parrafo -->
+                <p>
+                    Manage provides all the functionality your 
+                    teas needs, without the complexity. Our software is tailor-made
+                    for modern digital product teams
+                </p>
+            </div>
+            <div class="articulos">
+                <!-- Aca van las cards -->
+                <article class="cards">
+                    <p>01</p>
+                    <h3>
+                        Track company-wide progress
+                    </h3>
+                    <h4>
+                        See how your day-to-day tasks fit into the wider vision.
+                        Go from tracking progress at the milestone level all the
+                        way done to the smallest of details. Never lose sight of
+                        the bigger picture again.
+                    </h4>
+                </article>
+                <article class="cards">
+                    <p>02</p>
+                    <h3>
+                        Advance built-in reports
+                    </h3>
+                    <h4>
+                        Set internal delivery estimates and track progress toward 
+                        company goals. Our customisable dashboard helps you build
+                        out the reports you need to keep key stakeholders informed.
+                    </h4>
+                </article>
+                <article class="cards">
+                    <p>03</p>
+                    <h3>
+                        Everything you need in one place
+                    </h3>
+                    <h4>
+                        Stop jumping from one service to another to communicate,
+                        store files, track tasks and share documents. Manage
+                        offers an all-in-one team productivity solution.
+                    </h4>
+                </article>
+            </div>
+        </section>
+        <!-- Aca empieza el 3er section o sector tres -->
+        <section class="sector-tres">
+            <h2>
+                What they´ve said
+            </h2>
+            <!-- Aca use el mismo razonamiento de un div adentro de un Section -->
+            <div class="slider">
+                <!-- Aca van las cartas de Feedbacks de los clientes -->
+                <article class="feedbacks anisha">
+                    <img src="../imagenes/avatar-anisha.png" alt=" Perfil Anisha Li ">
+                    <h4>
+                        Anisha Li
+                    </h4>
+                    <p>
+                        “Manage has supercharged our team´s workflow.
+                        The ability to maintain visibility on larger
+                        milestones at all times keeps everyone motivated.”
+                    </p>
+                </article>
+                <article class="feedbacks ali">
+                    <img src="../imagenes/avatar-ali.png" alt=" Perfil Ali Bravo ">
+                    <h4>
+                        Ali Bravo
+                    </h4>
+                    <p>
+                        “We have been able to cancel so many other subscriptions
+                        since using manage. There ir no more cross-channel
+                        confusion and everyone is much more focused.”
+                    </p>
+                </article>
+                <article class="feedbacks richard">
+                    <img src="../imagenes/avatar-richard.png" alt=" Perfil Richard Watts ">
+                    <h4>
+                        Richard Watts
+                    </h4>
+                    <p>
+                        “Manage allows us to provide structure and process.
+                        It keeps us organized and focused. I can´t stop
+                        recommending them to everyone i talk to!”
+                    </p>
+                </article>
+                <article class="feedbacks shanai">
+                    <img src="../imagenes/avatar-shanai.png" alt=" Perfil shanai ">
+                    <h4>
+                        Shanai
+                    </h4>
+                    <p>
+                        “Manage allows us to provide structure and process.
+                        It keeps us organized and focused. I can´t stop
+                        recommending them to everyone i talk to!”
+                    </p>
+                </article>
+            </div>
+            <!-- Este es el menu que aparece en Mobile -->
+            <ul class="menu">
+                <li id="slide1">
+                    <a href="#slide1"></a>
+                </li>
+                <li id="slide2">
+                    <a href="#slide2"></a>
+                </li>
+                <li id="slide3">
+                    <a href="#slide3"></a>
+                </li>
+                <li id="slide4">
+                    <a href="#slide4"></a>
+                </li>
+            </ul>
+            <!-- El boton con formulario, todos los botones son iguales(misma clase) -->
+            <form action="../diseño/" method="post">
+                <button class="get-started" type="submit">
+                    <p>Get started</p>
+                </button>
+            </form>
+        </section>
+        <!-- Aca empieza el 4to section o sector cuatro -->
+        <section class="sector-cuatro">
+            <div>
+                <h2>Simplify how your team
+                    works today.</h2>
+            </div>
+            <form action="../diseño/" method="post">
+                <button class="get-started blanco" type="submit">
+                    <p>Get started</p>
+                </button>
+            </form>
+        </section>
+    </main>    
+        <!-- Aca arranca el footer -->
+    <footer class="pie-de-pagina">
+        <section class="todoLinks">
+            <article class="cuadros iconosFooter">
+                <img id="logoFooter" src="../imagenes/Logo.png" alt="Logo">
+                <!-- Los iconos del footer que me hicieron renegar (No consegui el youtube circular) -->
+                <nav id="iconos">
+                    <ul>
+                        <li>
+                            <a href="www.facebook.com">
+                                <i class="fa-brands fa-facebook-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="www.youtube.com">
+                                <i class="fa-brands fa-youtube-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="www.twitter.com">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="www.pinterest.com">
+                                <i class="fa-brands fa-pinterest"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="www.instagram.com">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </article>
+            <!-- Links del footer -->
+            <article class="cuadros linksFooter">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Pricing">Pricing</a></li>
+                        <li><a href="Products">Products</a></li>
+                        <li><a href="About Us">About Us</a></li>
+                    </ul>
+                </nav>
+                <nav>
+                    <ul>
+                        <li><a href="Careers">Careers</a></li>
+                        <li><a href="Community">Community</a></li>
+                        <li><a href="Privacy Policy">Privacy Policy</a></li>
+                    </ul>
+                </nav>
+            </article>
+            <!-- El input mail con su button -->
+            <article class="cuadros">
+                <div>
+                    <form action="../diseño/" method="post">
+                        <label for="update"></label>
+                        <input type="email" name="updateInbox" id="update" placeholder="Update in your inbox..." required>
+                        <button class="go" type="submit">
+                            <p>Go</p>
+                        </button>
+                    </form>
+                </div>
+            </article>
+        </section>
+        <!-- El copyright -->
+        <article class="ultimoItem">
+            <p id="copyright">
+                Copyright 2020. All Rights Reserved
+            </p>
+        </article>
+    </footer>
+</body>
+</html>
